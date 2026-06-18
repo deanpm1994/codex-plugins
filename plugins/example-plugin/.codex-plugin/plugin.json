@@ -1,0 +1,8 @@
+{
+    "name": "example-plugin",
+    "version": "1.0.0",
+    "description": "My first Codex plugin",
+    "author": {
+        "name": "deanpm"
+    }
+}

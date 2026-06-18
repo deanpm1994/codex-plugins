@@ -1,0 +1,44 @@
+{
+    "name": "codex-plugin",
+    "interface": {
+        "displayName": "Codex Plugin",
+        "description": "A plugin for Codex that provides additional functionality.",
+        "version": "1.0.0"
+    },
+    "owner": {
+        "name": "deanpm",
+        "email": "deanpm1994@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "metadata": {
+        "description": "A plugin for Codex that provides additional functionality.",
+        "categories": [
+            "productivity",
+            "tools"
+        ],
+        "keywords": [
+            "codex",
+            "plugin",
+            "extension"
+        ],
+        "version": "1.0.0"
+    },
+    "plugins": [
+        {
+            "name": "example-plugin",
+            "source": {
+                "source": "local",
+                "path": "./plugins/example-plugin"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "Productivity"
+        }
+    ]
+}
