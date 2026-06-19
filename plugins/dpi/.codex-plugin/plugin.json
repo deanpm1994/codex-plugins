@@ -1,0 +1,24 @@
+{
+  "name": "dpi",
+  "version": "1.0.0+codex.20260619153521",
+  "description": "DPI session conductor for Codex",
+  "author": {
+    "name": "deanpm"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DPI",
+    "shortDescription": "Guide design, planning, and implementation",
+    "longDescription": "A local Codex plugin that conducts DPI sessions end-to-end and supports starting at any phase with in-doc handoffs.",
+    "developerName": "deanpm",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Start a full DPI session.",
+      "Open the design phase for this project.",
+      "Capture the phase handoff."
+    ]
+  }
+}
