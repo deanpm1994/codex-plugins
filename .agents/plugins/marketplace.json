@@ -28,17 +28,29 @@
         "version": "1.0.0"
     },
     "plugins": [
-        {
-            "name": "example-plugin",
-            "source": {
-                "source": "local",
-                "path": "./plugins/example-plugin"
+    {
+      "name": "example-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/example-plugin"
             },
             "policy": {
                 "installation": "AVAILABLE",
                 "authentication": "ON_INSTALL"
-            },
-            "category": "Productivity"
-        }
-    ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "caveman",
+      "source": {
+        "source": "local",
+        "path": "./plugins/caveman"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
 }
